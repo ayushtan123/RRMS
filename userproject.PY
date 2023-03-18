@@ -1,4 +1,6 @@
 mypass=input("Enter MySQL password: ")
+
+#creating database railway
 def Create_Database_Railway():
     import mysql.connector 
     mycon=mysql.connector.connect(host='localhost',user='root',passwd=mypass)    
@@ -9,6 +11,7 @@ def Create_Database_Railway():
     print('OK')
 Create_Database_Railway()
 
+#connecting to MySQL
 def connection():
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd=mypass,database='railway')
@@ -16,6 +19,7 @@ def connection():
         print("Successfully connected to SQL")
 connection()
 
+#creating table railway
 def table_creation_railway():
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd=mypass,database='railway')
@@ -26,7 +30,7 @@ def table_creation_railway():
 table_creation_railway()
 
 
-
+#reating table user_accounts for personal information of user
 def table_creation_user_accounts():
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd=mypass,database='railway')
@@ -112,16 +116,18 @@ def main():
             print('WRONG INPUT')
     else:
         print('ERROR 404: ERROR PAGE NOT FOUND\n')
-        
+
+# main code for ticket booking        
 def ticket_booking():
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd=mypass,database='railway')
     cursor=mycon.cursor()
     mycon.autocommit=True
-    print("*******ATTENTION PLEASE********** ")
+    print("*******ATTENTION PLEASE**********\n")
     print("Due to COVID-19, we currently operate for trains between Delhi, Mumbai, Hyderabad and Varanasi.")
     n= int(input("Enter number of passengers: "))
     tpc=0
+    #stations list
     print(''' 
           DELHI: D 
           MUMBAI:M 
@@ -143,6 +149,7 @@ def ticket_booking():
     date=date1+"/"+date2+"/"+date3
     print("\n")
     
+    #entering passenger details
     for i in range(0,n):
         nm=input('Enter your name: ')
         age=int(input('Enter your age:'))
@@ -156,7 +163,7 @@ def ticket_booking():
         k=str((phno*age)*2)
         pnr=k[-1:-13:-1]
         
-    
+        #concession as per age
         ci=0
         if age>59:
             ci+=(1-0.4)*pc
@@ -176,6 +183,7 @@ def ticket_booking():
     tpc=int(tpc)
     print("Total Fare: ",tpc)
     
+    #the unique code
     d=str(phno+tpc)
     x=d[-1:-7:-1]
     print(x)
@@ -228,8 +236,7 @@ def ticket_checking():
     else:
         print('ERROR 404:PAGE NOT FOUND')
     
-       
-
+#cancel the ticket
 def ticket_cancelling():
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd=mypass,database='railway')
@@ -248,6 +255,7 @@ def ticket_cancelling():
     else:
         print('ERROR 404:PAGE NOT FOUND')
         
+#delete account
 def checking_2():
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd=mypass,database='railway')
@@ -299,9 +307,8 @@ def checking_2():
     except:
         print('ACCOUNT DOES NOT EXIST')
         
-
+#sign up
 def checking_1():
-    #sign up
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd=mypass,database='railway')
     cursor=mycon.cursor()
@@ -359,6 +366,7 @@ def checking():
     except:
         print('ACCOUNT DOES NOT EXIST')
 
+#account details
 def checking_3():
     import mysql.connector
     mycon=mysql.connector.connect(host='localhost',user='root',passwd=mypass,database='railway')
