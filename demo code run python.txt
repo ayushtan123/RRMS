@@ -1,0 +1,225 @@
+Enter MySQL password: ************
+OK
+Successfully connected to SQL
+1.YES
+2.NO
+
+DO YOU WANT TO CONTINUE OR NOT:1
+WELCOME TO RAILWAY RESERVATION SYSTEM
+
+1.SIGN IN
+2.SIGN UP
+3.DELETE ACCOUNT
+4.EXIT
+
+ENTER YOUR CHOICE:2
+FIRST NAME: Ankit
+LAST NAME: Singh
+USER NAME: abc
+PASS WORD: abc
+RE-ENTER YOUR PASS WORD: abc
+PHONE NUMBER: 12345678
+M=MALE 
+ F=FEMALE 
+ N=NOT TO MENTION
+write in small letters
+ENTER YOUR GENDER: m
+ENTER YOR DATE OF BIRTH
+DD:16
+MM:05
+YYYY:1996
+YOUR AGE:26
+WELCOME  Ankit   Singh
+COVID-19 TRAVEL GUIDELINES AND ALERTS
+
+1.All Incoming passengers aged 2 years and above arriving shall have to mandatorily carry RT-PCR negative test report
+issued from a ICMR approved lab, subject to condition that RTPCR test should have been taken within 48 hours.
+
+2.Wear Mask, Follow Physical Distancing, Maintain Hand Hygiene.
+
+3.All passengers are hereby informed that downloading of Aarogya Setu App on
+their mobile phone,that they are carrying along,is advisable.
+
+4. Passengers should produce Vaccination Certification of both doses
+
+1.YES
+2.NO
+Do you want to continue or not?: 1
+ 1.TICKET BOOKING 
+ 2.TICKET CHECKING 
+ 3.TICKET CANCELLING 
+ 4.ACCOUNT DETAILS 
+ 5.LOG OUT
+Enter your choice: 1
+*******ATTENTION PLEASE**********
+
+Due to COVID-19, we currently operate for trains between Delhi, Mumbai, Hyderabad and Varanasi.
+Enter number of passengers: 3
+ 
+          DELHI: D 
+          MUMBAI:M 
+          HYDERABAD:H 
+          VARANASI:V 
+
+
+Enter your starting point: M
+Enter your destination: V
+Journey code: MV
+Enter your phone number: 12345678
+Enter date(dd):01
+Enter month(mm):01
+Enter year(yyyy):2023
+
+
+Enter your name: Ankit Singh
+Enter your age:26
+M=MALE 
+ F=FEMALE 
+ N=NOT TO MENTION
+Enter your gender: m
+Passenger Fee:  3000
+
+
+Enter your name: Kashish Singh
+Enter your age:72
+M=MALE 
+ F=FEMALE 
+ N=NOT TO MENTION
+Enter your gender: f
+40 percent concession applied on senior citizens
+
+Passenger Fee:  1800.0
+
+
+Enter your name: Paras Singh
+Enter your age:2
+M=MALE 
+ F=FEMALE 
+ N=NOT TO MENTION
+Enter your gender: m
+Ticket free for infants
+
+Passenger Fee:  0
+
+
+Total Fare:  4800
+874053
+You will get a payment link from AD-RRMS on your phone number. Click on the link and make payment.
+
+After payment confirmation, a six digit secret code will be displayed.
+
+Enter six digit code for ticket confirmation:
+874053
+Payment received.
+TICKET BOOKED SUCCESSFULLY!
+ 1.TICKET BOOKING 
+ 2.TICKET CHECKING 
+ 3.TICKET CANCELLING 
+ 4.ACCOUNT DETAILS 
+ 5.LOG OUT
+Enter your choice: 2
+1.Yes
+2.No
+Do you want to continue or not:1
+Enter your phone number:12345678
+PNR NUMBER :::: 21728394
+NAME :::: PARAS SINGH
+PHONE NUMBER :::: 12345678
+AGE :::: 2
+GENDER :::: MALE
+STARTING POINT :::: M
+DESTINATION :::: V
+DATE :::: 01/01/2023
+PRICE :::: 0
+ 1.TICKET BOOKING 
+ 2.TICKET CHECKING 
+ 3.TICKET CANCELLING 
+ 4.ACCOUNT DETAILS 
+ 5.LOG OUT
+Enter your choice: 4
+USER NAME: abc
+PASS WORD: abc
+FIRST NAME ::: Ankit
+LAST NAME ::: Singh
+PHONE NUMBER ::: 12345678
+GENDER ::: MALE
+DATE OF BIRTH ::: 16/05/1996
+AGE ::: 26
+ 1.TICKET BOOKING 
+ 2.TICKET CHECKING 
+ 3.TICKET CANCELLING 
+ 4.ACCOUNT DETAILS 
+ 5.LOG OUT
+Enter your choice: 3
+1.Yes
+2.No
+Do you want to continue or not:1
+Enter your phone number: 12345678
+TICKET CANCELLED
+ 1.TICKET BOOKING 
+ 2.TICKET CHECKING 
+ 3.TICKET CANCELLING 
+ 4.ACCOUNT DETAILS 
+ 5.LOG OUT
+Enter your choice: 5
+THANK YOU!
+WELCOME TO RAILWAY RESERVATION SYSTEM
+
+1.SIGN IN
+2.SIGN UP
+3.DELETE ACCOUNT
+4.EXIT
+
+ENTER YOUR CHOICE:1
+USER NAME: abc
+PASS WORD: abc
+Hello  Ankit Singh
+WELCOME
+COVID-19 TRAVEL GUIDELINES AND ALERTS
+
+1.All Incoming passengers aged 2 years and above arriving shall have to mandatorily carry RT-PCR negative test report
+issued from a ICMR approved lab, subject to condition that RTPCR test should have been taken within 48 hours.
+
+2.Wear Mask, Follow Physical Distancing, Maintain Hand Hygiene.
+
+3.All passengers are hereby informed that downloading of Aarogya Setu App on
+their mobile phone,that they are carrying along,is advisable.
+
+4. Passengers should produce Vaccination Certification of both doses
+
+1.YES
+2.NO
+Do you want to continue or not?: 2
+ERROR 404: ERROR PAGE NOT FOUND
+
+WELCOME TO RAILWAY RESERVATION SYSTEM
+
+1.SIGN IN
+2.SIGN UP
+3.DELETE ACCOUNT
+4.EXIT
+
+ENTER YOUR CHOICE:3
+USER NAME: abc
+PASS WORD: abc
+IS THIS YOUR ACCOUNT
+FIRST NAME ::: Ankit
+LAST NAME ::: Singh
+PHONE NUMBER ::: 12345678
+GENDER ::: MALE
+DATE OF BIRTH ::: 16/05/1996
+AGE ::: 26
+1.yes
+2.no
+Enter your choice:1
+ACCOUNT DELETED
+
+WELCOME TO RAILWAY RESERVATION SYSTEM
+
+1.SIGN IN
+2.SIGN UP
+3.DELETE ACCOUNT
+4.EXIT
+
+ENTER YOUR CHOICE:4
+THANK YOU
