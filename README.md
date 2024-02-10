@@ -14,3 +14,6 @@ MySQL will express booking details in a tabular way, allowing them to view detai
 ## Demo Video
 https://github.com/ayushtan123/RRMS/assets/121681555/04ac678f-6c64-4c59-8d95-d28f7170a7de
 
+If the video does not play in-website, click on this Youtube link for demo
+https://youtu.be/Jtgfmvb2FmE?si=81egQRjtjGfUzuvF
+
